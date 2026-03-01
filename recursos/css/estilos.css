@@ -9,3 +9,24 @@
     width: 100%;
     height: auto;
 }
+
+.card {
+    background-color: #1e1e1e;
+    /* Gris muy oscuro */
+    border: 1px solid #2a7363;
+    /* Borde verde sutil */
+    border-radius: 15px;
+    /* Bordes redondeados modernos */
+    overflow: hidden;
+}
+
+.card-body h3 {
+    color: #00ff41;
+    /* Verde neón para el título */
+    font-weight: bold;
+}
+
+.card-body p {
+    color: #e0e0e0;
+    /* Gris claro para el texto, cansa menos la vista que el blanco puro */
+}
