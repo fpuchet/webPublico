@@ -1,32 +1,55 @@
-.fondo-main {
-    width: 100%;
-    background-color: #2a7363;
+:root {
+    --dark-bg: #121212;
+    --card-bg: #1e1e1e;
+    --escom-green: #2a7363;
+    --neon-green: #00ff41;
 }
 
+body {
+    background-color: var(--dark-bg);
+    color: #e0e0e0;
+    font-family: 'Inter', sans-serif;
+}
+
+.neon-text {
+    color: var(--neon-green);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.hero-section {
+    padding: 80px 0;
+}
+
+.quote-container {
+    margin-bottom: 60px;
+    border-left: 5px solid var(--neon-green);
+    background: rgba(42, 115, 99, 0.1);
+    padding: 20px;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid #333;
+    border-radius: 15px;
+}
+
+.highlight {
+    color: var(--neon-green);
+    font-weight: bold;
+}
+
+/* Imágenes del carrusel uniformes con relación 16:9 */
 #carouselExampleIndicators .carousel-item img {
     aspect-ratio: 16 / 9;
     object-fit: cover;
     width: 100%;
-    height: auto;
 }
 
-.card {
-    background-color: #1e1e1e;
-    /* Gris muy oscuro */
-    border: 1px solid #2a7363;
-    /* Borde verde sutil */
-    border-radius: 15px;
-    /* Bordes redondeados modernos */
-    overflow: hidden;
-}
-
-.card-body h3 {
-    color: #00ff41;
-    /* Verde neón para el título */
-    font-weight: bold;
-}
-
-.card-body p {
-    color: #e0e0e0;
-    /* Gris claro para el texto, cansa menos la vista que el blanco puro */
+footer {
+    border-top: 1px solid #333;
+    padding: 40px 0;
+    margin-top: 60px;
 }
