@@ -53,3 +53,17 @@ footer {
     padding: 40px 0;
     margin-top: 60px;
 }
+
+/* Estilo para el contenedor del PDF */
+.cv-iframe {
+    border: none;
+    background-color: var(--card-bg);
+    /* Mantiene el fondo oscuro mientras carga */
+}
+
+/* Ajuste para que en celulares no sea tan alto */
+@media (max-width: 768px) {
+    .cv-iframe {
+        height: 500px;
+    }
+}
