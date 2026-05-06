@@ -32,69 +32,123 @@
         </nav>
     </header>
 
-    <main class="hero-section">
-        <div class="container">
-            <div class="quote-container text-center">
-                <blockquote class="blockquote">
-                    <p class="fst-italic">"Todo es posible. Lo imposible simplemente toma un poco más de tiempo."
-                    </p>
-                </blockquote>
-                <figcaption class="blockquote-footer">Dan Brown, La Fortaleza Digital.s</figcaption>
-            </div>
+<main class="hero-section">
+    <div class="container py-5">
+        <!-- Pantalla de Presentación: Nombre y Cita -->
+        <div class="quote-container text-center mb-5">
+            <h1 class="display-4 fw-bold mb-3">Francisco Alexander Pucheta Gómez</h1>
+            <blockquote class="blockquote">
+                <p class="fst-italic">"Todo es posible. Lo imposible simplemente toma un poco más de tiempo."</p>
+                <figcaption class="blockquote-footer">Dan Brown, La Fortaleza Digital</figcaption>
+            </blockquote>
+        </div>
 
-            <section id="sobre-mi">
-                <div class="row align-items-center g-5">
-                    <div class="col-12 col-lg-6">
-                        <div class="card shadow-lg overflow-hidden">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleIndicators"
-                                        data-bs-slide-to="0" class="active"></button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators"
-                                        data-bs-slide-to="1"></button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators"
-                                        data-bs-slide-to="2"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="./recursos/img/render/paco.jpeg" alt="Alexander Pucheta">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./recursos/img/render/escudoESCOM.jpg" alt="ESCOM IPN">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./recursos/img/render/cripto_ia.jpg" alt="Criptografía e IA">
+        <section id="sobre-mi">
+            <div class="row g-5">
+                <!-- Carrusel de Fotografías (Sección Hobbies) -->
+                <div class="col-12 col-lg-6">
+                    <div class="card shadow-lg overflow-hidden bg-dark">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./recursos/img/render/paco.jpeg" class="d-block w-100"
+                                        alt="Alexander Pucheta">
+                                    <div class="carousel-caption d-none d-md-block bg-dark-transparent">
+                                        <p>Estudiante de Ingeniería</p>
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </button>
+                                <div class="carousel-item">
+                                    <img src="./recursos/img/render/americaCampeon.jpg" class="d-block w-100"
+                                        alt="Club América">
+                                    <div class="carousel-caption d-none d-md-block bg-dark-transparent">
+                                        <p>Aficionado al Club América</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./recursos/img/render/batman.jpg" class="d-block w-100"
+                                        alt="Cómics y Cine">
+                                    <div class="carousel-caption d-none d-md-block bg-dark-transparent">
+                                        <p>Interés en Cine y Cómics de DC</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./recursos/img/render/gameOfthrones.jpg" class="d-block w-100"
+                                        alt="Lectura Fantasy">
+                                    <div class="carousel-caption d-none d-md-block bg-dark-transparent">
+                                        <p>Lectura de Novela Fantástica</p>
+                                    </div>
+                                </div>
                             </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                        <div class="card-body text-white">
+                            <h5>Mis Hobbies</h5>
+                            <p class="small">Seguidor de fútbol, lector de sagas épicas y fanático del universo
+                                cinematográfico de acción.</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-12 col-lg-6 ">
-                        <div class="card p-4 text-white">
-                            <div class="card-body">
-                                <h2 class="mb-4">¿Quién soy?</h2>
-                                <p>Mi nombre es <span class="highlight">Francisco Alexander Pucheta Gómez</span>.
-                                    Estudiante de <span class="highlight">Ingeniería en Sistemas Computacionales</span>
-                                    en la <span class="highlight">ESCOM</span>.</p>
-                                <p>Me especializo en el desarrollo de soluciones que integran <span
-                                        class="highlight">hardware y software</span>, con un enfoque actual en <span
-                                        class="highlight">Criptografía e Inteligencia Artificial</span>.</p>
+                <!-- Información Personal y Académica -->
+                <div class="col-12 col-lg-6">
+                    <div class="card p-4 text-white bg-dark shadow-lg">
+                        <div class="card-body">
+                            <h2 class="neon-text mb-4">Información General</h2>
+
+                            <h5 class="text-success">Formación Académica</h5>
+                            <ul>
+                                <li>Ingeniería en Sistemas Computacionales - ESCOM IPN</li>
+                                <li>Técnico en Informática - CECyT 13 "Ricardo Flores Magón"</li>
+                                <li>Estudiante de Inglés - CELEX UPIICSA</li>
+                            </ul>
+
+                            <h5 class="text-success mt-4">Contacto</h5>
+                            <p>Correo electrónico: <a href="mailto:fpuchetag2003@alumno.ipn.mx"
+                                    class="text-white">fpuchetag2003@alumno.ipn.mx</a></p>
+
+                            <h5 class="text-success mt-4">Redes Sociales</h5>
+                            <div class="d-flex gap-3">
+                                <a href="https://github.com/fpuchet" class="btn btn-outline-light btn-sm">GitHub</a>
+                                <a href="#" class="btn btn-outline-light btn-sm">LinkedIn</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
-    </main>
+            </div>
+
+            <!-- Sección de Criptografía -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="card p-4 text-white bg-dark border-success">
+                        <h2 class="neon-text mb-4 text-center">Acerca de Criptografía</h2>
+                        <div class="row align-items-center">
+                            <div class="col-md-4 text-center">
+                                <img src="./recursos/img/render/cripto_ia.jpg" class="img-fluid rounded shadow"
+                                    alt="Criptografía">
+                            </div>
+                            <div class="col-md-8">
+                                <h5 class="text-success">Historia del Algoritmo RSA</h5>
+                                <p>Descrito en 1977 por Ron Rivest, Adi Shamir y Leonard Adleman, el algoritmo RSA es
+                                    uno de los primeros sistemas de criptografía de clave pública. Su seguridad radica
+                                    en la dificultad de la factorización de números enteros grandes.</p>
+                                <p>Este algoritmo es fundamental en el desarrollo de la seguridad informática moderna y
+                                    es el que estaré implementando próximamente en este sitio para la gestión de mi
+                                    llave pública.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
 
     <footer class="text-center">
         <div class="container">
