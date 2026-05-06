@@ -34,113 +34,118 @@
 
 <main class="hero-section">
     <div class="container py-5">
-        <!-- Pantalla de Presentación: Nombre y Cita -->
+        <!-- Pantalla de Presentación -->
         <div class="quote-container text-center mb-5">
             <h1 class="display-4 fw-bold mb-3">Francisco Alexander Pucheta Gómez</h1>
             <blockquote class="blockquote">
-                <p class="fst-italic">"Todo es posible. Lo imposible simplemente toma un poco más de tiempo."</p>
-                <figcaption class="blockquote-footer">Dan Brown, La Fortaleza Digital</figcaption>
+                <p class="fst-italic text-success">"Todo es posible. Lo imposible simplemente toma un poco más de
+                    tiempo."</p>
+                <figcaption class="blockquote-footer">Dan Brown, <cite title="Source Title">La Fortaleza Digital</cite>
+                </figcaption>
             </blockquote>
         </div>
 
         <section id="sobre-mi">
             <div class="row g-5">
-                <!-- Carrusel de Fotografías (Sección Hobbies) -->
+                <!-- Carrusel de Hobbies Dinámico -->
                 <div class="col-12 col-lg-6">
-                    <div class="card shadow-lg overflow-hidden bg-dark">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="card shadow-lg border-0 bg-dark text-white">
+                        <div id="hobbyCarousel" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="./recursos/img/render/paco.jpeg" class="d-block w-100"
-                                        alt="Alexander Pucheta">
+                                    <img src="./recursos/img/render/americaCampeon.jpg"
+                                        class="d-block w-100 h-100-custom" alt="Club América">
                                     <div class="carousel-caption d-none d-md-block bg-dark-transparent">
-                                        <p>Estudiante de Ingeniería</p>
+                                        <h5>Pasión Azulcrema</h5>
+                                        <p>Fiel seguidor del Club América, disfrutando cada victoria en el Estadio
+                                            Azteca.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./recursos/img/render/americaCampeon.jpg" class="d-block w-100"
-                                        alt="Club América">
+                                    <img src="./recursos/img/render/gameOfthrones.jpg"
+                                        class="d-block w-100 h-100-custom" alt="Lectura Fantasy">
                                     <div class="carousel-caption d-none d-md-block bg-dark-transparent">
-                                        <p>Aficionado al Club América</p>
+                                        <h5>Mundos Fantásticos</h5>
+                                        <p>Explorando Poniente con George R.R. Martin y resolviendo enigmas con Robert
+                                            Langdon.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="./recursos/img/render/batman.jpg" class="d-block w-100"
-                                        alt="Cómics y Cine">
+                                    <img src="./recursos/img/render/batman.jpg" class="d-block w-100 h-100-custom"
+                                        alt="Cine de Acción">
                                     <div class="carousel-caption d-none d-md-block bg-dark-transparent">
-                                        <p>Interés en Cine y Cómics de DC</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./recursos/img/render/gameOfthrones.jpg" class="d-block w-100"
-                                        alt="Lectura Fantasy">
-                                    <div class="carousel-caption d-none d-md-block bg-dark-transparent">
-                                        <p>Lectura de Novela Fantástica</p>
+                                        <h5>Cine y Tecnología</h5>
+                                        <p>Fanático del género techno-thriller y las historias que desafían la lógica.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
                         </div>
-                        <div class="card-body text-white">
-                            <h5>Mis Hobbies</h5>
-                            <p class="small">Seguidor de fútbol, lector de sagas épicas y fanático del universo
-                                cinematográfico de acción.</p>
+                        <div class="card-body">
+                            <h4 class="text-success">Más allá del código</h4>
+                            <p>Fuera de las aulas de ESCOM, me apasiona el fútbol, la literatura de suspenso y los
+                                rompecabezas narrativos. Creo firmemente que la curiosidad que despierta un buen libro
+                                de Dan Brown es la misma que impulsa a un ingeniero a resolver un bug complejo.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Información Personal y Académica -->
                 <div class="col-12 col-lg-6">
-                    <div class="card p-4 text-white bg-dark shadow-lg">
+                    <div class="card p-4 text-white bg-dark shadow-lg border-0">
                         <div class="card-body">
-                            <h2 class="neon-text mb-4">Información General</h2>
+                            <h2 class="neon-text mb-4">Perfil Profesional</h2>
+                            <p class="lead">Estudiante de Ingeniería en Sistemas Computacionales enfocado en el
+                                desarrollo de soluciones integrales.</p>
 
-                            <h5 class="text-success">Formación Académica</h5>
-                            <ul>
-                                <li>Ingeniería en Sistemas Computacionales - ESCOM IPN</li>
-                                <li>Técnico en Informática - CECyT 13 "Ricardo Flores Magón"</li>
-                                <li>Estudiante de Inglés - CELEX UPIICSA</li>
+                            <h5 class="text-success"><i class="bi bi-mortarboard"></i> Formación</h5>
+                            <ul class="list-unstyled">
+                                <li><strong class="text-white">ESCOM - IPN:</strong> Ingeniería en Sistemas (Estudiante
+                                    Activo)</li>
+                                <li><strong class="text-white">CECyT 13:</strong> Técnico en Informática</li>
+                                <li><strong class="text-white">CELEX UPIICSA:</strong> Inglés Nivel Intermedio</li>
                             </ul>
 
-                            <h5 class="text-success mt-4">Contacto</h5>
-                            <p>Correo electrónico: <a href="mailto:fpuchetag2003@alumno.ipn.mx"
-                                    class="text-white">fpuchetag2003@alumno.ipn.mx</a></p>
+                            <h5 class="text-success mt-4"><i class="bi bi-envelope"></i> Contacto Directo</h5>
+                            <a href="mailto:fpuchetag1900@alumno.ipn.mx"
+                                class="text-decoration-none text-white-50">fpuchetag1900@alumno.ipn.mx</a>
 
-                            <h5 class="text-success mt-4">Redes Sociales</h5>
+                            <h5 class="text-success mt-4">Conecta conmigo</h5>
                             <div class="d-flex gap-3">
-                                <a href="https://github.com/fpuchet" class="btn btn-outline-light btn-sm">GitHub</a>
-                                <a href="#" class="btn btn-outline-light btn-sm">LinkedIn</a>
+                                <a href="https://github.com/fpuchet" class="btn btn-outline-success btn-sm">GitHub</a>
+                                <a href="#" class="btn btn-outline-info btn-sm">LinkedIn</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Sección de Criptografía -->
+            <!-- Investigación RSA con "Sabor" -->
             <div class="row mt-5">
                 <div class="col-12">
                     <div class="card p-4 text-white bg-dark border-success">
-                        <h2 class="neon-text mb-4 text-center">Acerca de Criptografía</h2>
-                        <div class="row align-items-center">
-                            <div class="col-md-4 text-center">
-                                <img src="./recursos/img/render/cripto_ia.jpg" class="img-fluid rounded shadow"
-                                    alt="Criptografía">
+                        <h2 class="neon-text mb-4 text-center">Inmersión en Criptografía: El Legado RSA</h2>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-4">
+                                <img src="./recursos/img/render/cripto_ia.jpg"
+                                    class="img-fluid rounded-3 border border-success" alt="Criptografía RSA">
                             </div>
-                            <div class="col-md-8">
-                                <h5 class="text-success">Historia del Algoritmo RSA</h5>
-                                <p>Descrito en 1977 por Ron Rivest, Adi Shamir y Leonard Adleman, el algoritmo RSA es
-                                    uno de los primeros sistemas de criptografía de clave pública. Su seguridad radica
-                                    en la dificultad de la factorización de números enteros grandes.</p>
-                                <p>Este algoritmo es fundamental en el desarrollo de la seguridad informática moderna y
-                                    es el que estaré implementando próximamente en este sitio para la gestión de mi
-                                    llave pública.</p>
+                            <div class="col-lg-8">
+                                <h4 class="text-success">El Arte de la Factorización</h4>
+                                <p>Ideado en 1977, el sistema <strong>RSA</strong> no es solo un algoritmo; es la piedra
+                                    angular que permite que hoy compremos en línea o enviemos mensajes privados. Su
+                                    elegancia reside en la asimetría: cualquiera puede cerrar el candado (clave
+                                    pública), pero solo el dueño de la clave secreta conoce la combinación (clave
+                                    privada).</p>
+                                Entender RSA es entender la belleza
+                                    de la teoría de números aplicada. Basado en la dificultad de factorizar el producto
+                                    de dos números primos grandes, este método desafía incluso a las supercomputadoras
+                                    actuales, manteniendo nuestros secretos a salvo tras un muro de matemáticas puras.
+                                </p>
+                                <div class="p-3 bg-black rounded border-start border-success">
+                                    <p class="small mb-0"><em>"La criptografía es la mezcla perfecta entre la
+                                            informática, las matemáticas y el misterio."</em></p>
+                                </div>
                             </div>
                         </div>
                     </div>
